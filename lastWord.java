@@ -2,16 +2,14 @@ package test1;
 import java.io.*;
 
 /**
- * ¼ÆËã×Ö·û´®×îºóÒ»¸öµ¥´ÊµÄ³¤¶È£¬µ¥´ÊÒÔ¿Õ¸ñ¸ô¿ª
+ * è®¡ç®—å­—ç¬¦ä¸²æœ€åä¸€ä¸ªå•è¯çš„é•¿åº¦ï¼Œå•è¯ä»¥ç©ºæ ¼éš”å¼€
  * @author zengli
  * @date 2016/4/6
  */
 public class lastWord {
 	public int lastWordNum(String str){
-//		System.out.println(str.length());
 		char[] ch = new char[str.length()];
 		ch = str.toCharArray();
-//		System.out.println(ch.length);
 		int num=0;
 		for(int i = ch.length-1;i>=0;i--){
 			if(ch[i]!=' '){
@@ -26,7 +24,7 @@ public class lastWord {
 	
 	public static void main(String[] args) {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		System.out.println("ÇëÊäÈëÒ»´®×Ö·û´®£º");
+		System.out.println("è¯·è¾“å…¥ä¸€ä¸²å­—ç¬¦ä¸²ï¼š");
 		String str = null;
 		try{
 			str = br.readLine();
