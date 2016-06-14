@@ -1,25 +1,26 @@
 package test1;
 
 /**
- * ¼Ì³Ğ¡¢¹¹Ôìº¯ÊıÒÔ¼°superºÍthisµÄÓÃ·¨²âÊÔ
+ * ç®€å•çš„githubä½¿ç”¨æµ‹è¯•å°ç¨‹åº
+ * ç»§æ‰¿ã€æ„é€ å‡½æ•°ä»¥åŠsuperå’Œthisçš„ç”¨æ³•æµ‹è¯•
  * @author zengli
- * @date 2016/4/12
+ * @date 2016/6/14
  */
 public class Base {
 	String name;
 	int age;
-	//»ùÀàµÄ¹¹Ôì·½·¨
+	//åŸºç±»çš„æ„é€ æ–¹æ³•
 	public Base(){
 		this.name = "Sally";
 		this.age = 22;
-		System.out.println("ÕâÊÇBaseµÄ¹¹Ôì·½·¨");
+		System.out.println("è¿™æ˜¯Baseçš„æ„é€ æ–¹æ³•");
 	}
 	
 	public void print(String name,int age){
 		System.out.println(name+" is "+age+" years old!");
 	}
 	public void print(){
-		System.out.println("ÕâÊÇÎŞ²ÎÖØÔØº¯Êı£¡");
+		System.out.println("è¿™æ˜¯æ— å‚é‡è½½å‡½æ•°ï¼");
 	}
 	
 	public static void main(String[] args) {
