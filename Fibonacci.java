@@ -2,6 +2,7 @@ package test1;
 import java.util.Scanner;
 
 /**
+ * 这是在分支C4上的修改
  * 运用递归求解Fibonacci数的第几位数是多少
  * @author zengli
  * @date 2016/4/12

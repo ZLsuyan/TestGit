@@ -1,5 +1,8 @@
 package test1;
 
+/**
+ * 这是在分支C4上的修改
+ */
 public class Solution{
 	public static int[] mergeSort(int[] score1,int[] score2){
 		int len = score1.length+score2.length;
